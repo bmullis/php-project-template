@@ -13,7 +13,7 @@ gulp.task('sass', function() {
 
 gulp.task('browserSync', function() {
   browserSync.init({
-    proxy: 'localhost/concrete',
+    proxy: 'localhost/CHANGE-TO-YOUR-PROJECT-FOLDER',
   })
 })
 
