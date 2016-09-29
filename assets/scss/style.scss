@@ -1,0 +1,41 @@
+/*
+SASS VARIABLES
+*/
+@import "_variables.scss";
+
+/*
+GLOBAL STYLES
+*/
+@import "_global.scss";
+
+/*
+NAVIGATION STYLE
+*/
+@import "_navigation.scss";
+
+/*
+HEADER STYLE
+*/
+@import "_header.scss";
+
+/*
+FOOTER STYLE
+*/
+
+@import "_footer.scss";
+
+body {
+    background-color: #ffffff;
+}
+
+
+/**************************************
+PREVENT DISPLAY ABOUT PHONE SCREEN SIZE
+**************************************/
+/*
+@media screen and (min-width: 500px) {
+    * {
+        display: none;
+    }
+}
+*/
